@@ -1,0 +1,26 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.logo.headshot {
+    border-radius: 50%;
+}
+
+.hero-welcome {
+    /* background-color: rgba(38, 12, 12, 0.3); */
+    font-size: 6rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.ui.basic.intro {
+    /* background-image: url('assets/images/brickwall.png'); */
+    height: 50%;
+    position: relative;
+    top: 57px;
+}
+
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+}
