@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css' />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    // Add the new slick-theme.css if you want the default styling
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="style.css">
     <title>Portfolio 2.0</title>
 </head>
@@ -21,9 +17,9 @@
             <a href="index.html" class="header item">
                 <img class="logo headshot" src="assets/images/headshot 2.jpg">
             </a>
-            <a href="#" class="item">Profile</a>
-            <div class="ui simple dropdown item">
-                Portfolio<i class="dropdown icon"></i>
+
+            <div class="ui right simple dropdown item">
+                <i class="hand spock outline icon"></i> Connect With Me <i class="dropdown icon"></i>
                 <div class="menu">
                     <a class="item" href="https://www.twitter.com/jamieepstein"> <i class="twitter icon"></i>
                         Twitter</a>
@@ -34,89 +30,119 @@
                     <a class="item" href="mailto:JASEpstein@gmail.com"> <i class="envelope outline icon"></i> Email</a>
                 </div>
             </div>
-            <div class="ui simple dropdown item">
-                Connect With Me <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="https://www.twitter.com/jamieepstein"> <i class="twitter icon"></i>
-                        Twitter</a>
-                    <a class="item" href="https://www.linkedin.com/in/JASEpstein"> <i class="linkedin icon"></i>
-                        LinkedIn</a>
-                    <a class="item" href="https://www.github.com/JASEpstein"> <i class="github icon"></i>
-                        Github</a>
-                    <a class="item" href="mailto:JASEpstein@gmail.com"> <i class="envelope outline icon"></i> Email</a>
-                </div>
-            </div>
+
+            <a href="assets/resume.pdf" download class="item"><i class="download icon"></i> Resume (PDF)</a>
         </div>
     </div>
     <div class="ui basic fluid intro very padded segment">
-        <h1 class="ui center aligned grid hero-welcome">Hi, my name is </h1>
-        <h1 class="ui center aligned grid hero-welcome2">Jamie Epstein.</h1>
+        <h1 class="ui center aligned grid hero-welcome">Hi, my name is Jamie Epstein.</h1>
     </div>
 
-
-    <div class="portfolio-carousel">
-        <div class="ui special cards">
-            <div class="card">
+    <div class="ui padded segment">
+        <h1 class="portfolio-title">Projects</h1>
+        <div class="ui four column grid special cards">
+            <div class="card orange">
                 <div class="blurring dimmable image">
                     <div class="ui dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui inverted button">Add Friend</div>
+                                <div class="ui inverted button" data-url="https://jasepstein.github.io/groupProject1/">
+                                    <i class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/groupProject1">
+                                    <i class='ui icon github'></i>Github</div>
                             </div>
                         </div>
                     </div>
-                    <img src="/images/avatar/large/elliot.jpg">
+                    <img src="/assets/images/screenshots/uhike-screenshot.png">
                 </div>
                 <div class="content">
-                    <a class="header">Team Fu</a>
+                    <a class="header">UHike</a>
                     <div class="meta">
-                        <span class="date">Created in Sep 2014</span>
+                        <span class="date">Browse local hiking trails! (Group Project)</span>
                     </div>
                 </div>
-                <div class="extra content">
-                    <a>
-                        <i class="users icon"></i>
-                        2 Members
-                    </a>
-                </div>
             </div>
-        </div>
-        <div class="ui special cards">
-            <div class="card">
+
+            <div class="card green">
                 <div class="blurring dimmable image">
                     <div class="ui dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui inverted button">Add Friend</div>
+                                <div class="ui inverted button" data-url="https://jasepstein.github.io/WordGuessGame/">
+                                    <i class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/WordGuessGame">
+                                    <i class='ui icon github'></i>Github</div>
                             </div>
                         </div>
                     </div>
-                    <img src="/images/avatar/large/elliot.jpg">
+                    <img src="/assets/images/screenshots/80s-screenshot.png">
                 </div>
                 <div class="content">
-                    <a class="header">Team Fu</a>
+                    <a class="header">80's Movie Trivia</a>
                     <div class="meta">
-                        <span class="date">Created in Sep 2014</span>
+                        <span class="date">Guess the title!</span>
                     </div>
                 </div>
-                <div class="extra content">
-                    <a>
-                        <i class="users icon"></i>
-                        2 Members
-                    </a>
+            </div>
+
+            <div class="card blue">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button" data-url="https://jasepstein.github.io/tip-calculator/">
+                                    <i class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/tip-calculator">
+                                    <i class='ui icon github'></i>Github</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/assets/images/screenshots/tip-screenshot.png">
+                </div>
+                <div class="content">
+                    <a class="header">Tip Calculator</a>
+                    <div class="meta">
+                        <span class="date">Dynamic, mobile ready tip calculator</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card red">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button" data-url="https://jasepstein.github.io/TriviaGame/"><i
+                                        class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/TriviaGame"><i
+                                        class='ui icon github'></i>Github</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/assets/images/screenshots/trivia-screenshot.png">
+                </div>
+                <div class="content">
+                    <a class="header">Parks & Rec Trivia</a>
+                    <div class="meta">
+                        <span class="date">Multiple choice trivia with difficulty levels.</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div> -->
 
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js'></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+
     <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js'></script> -->
     <script src="portfolio.js"></script>
 </body>

@@ -6,13 +6,14 @@ body {
     border-radius: 50%;
 }
 
-.hero-welcome,
-.hero-welcome2 {
+.hero-welcome {
     /* background-color: rgba(38, 12, 12, 0.3); */
     font-size: 6rem;
     /* color: white;
     text-shadow: 2px 2px black; */
 }
+
+.portfolio-title {}
 
 .ui.basic.intro {
     /* background-image: url('assets/images/brickwall.png'); */
@@ -21,9 +22,14 @@ body {
     top: 57px;
 }
 
-.portfolio-carousel {
-    height: 200px;
+.card img {
+    height: 13rem !important;
 }
+
+/* .portfolio-carousel {
+    width: 90%;
+    margin: 0px auto;
+} */
 
 /* .parallax-window {
     min-height: 800px;

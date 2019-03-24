@@ -12,24 +12,17 @@ $('.hero-welcome')
         duration: '2s'
     });
 
-$('.hero-welcome2').delay(900)
+$('.hero-welcome2')
     .transition({
         animation: 'scale in',
-        duration: '2s',
-        delay: 9000
+        duration: '4s',
     });
 
-$(document).ready(function () {
-    $('.portfolio-carousel').slick({
 
-    });
-});
-
-$('.autoplay').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+$('.ui.inverted.button').click(function () {
+    console.log('click');
+    var link = $(this).data('url')
+    window.open(link);
 });
 
 $('.special.cards .image').dimmer({
