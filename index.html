@@ -5,51 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css' />
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio 2.0</title>
+    <title>Portfolio 3.0</title>
 </head>
 
 <body>
-    <div class="ui fixed massive menu">
-        <div class="ui container">
-            <a href="index.html" class="header item">
-                <img class="logo headshot" src="assets/images/headshot 2.jpg">
-            </a>
+    <div class="ui fixed massive inverted menu">
+        <!-- <a href="index.html" class="header item"></a> -->
+        <div class="ui borderless item left">
+            <div class="ui borderless item">
+                <a class="item borderless" href="#"><img id="logo-nav" src="assets/images/logo letters purple.png"></a>
+            </div>
+        </div>
 
-            <div class="ui right simple dropdown item">
+        <div class="ui item right borderless">
+            <div id="connect-btn" class="ui simple borderless item dropdown">
                 <i class="hand spock outline icon"></i> Connect With Me <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="https://www.twitter.com/jamieepstein"> <i class="twitter icon"></i>
+                <div class="menu inverted">
+                    <a class="item connect-item-twitter" href="https://www.twitter.com/jamieepstein"> <i
+                            class="twitter icon"></i>
                         Twitter</a>
-                    <a class="item" href="https://www.linkedin.com/in/JASEpstein"> <i class="linkedin icon"></i>
+                    <a class="item connect-item-linkedin" href="https://www.linkedin.com/in/JASEpstein"> <i
+                            class="linkedin icon"></i>
                         LinkedIn</a>
-                    <a class="item" href="https://www.github.com/JASEpstein"> <i class="github icon"></i>
+                    <a class="item connect-item-github" href="https://www.github.com/JASEpstein"> <i
+                            class="github icon"></i>
                         Github</a>
-                    <a class="item" href="mailto:JASEpstein@gmail.com"> <i class="envelope outline icon"></i> Email</a>
+                    <a class="item connect-item-email" href="mailto:JASEpstein@gmail.com"> <i
+                            class="envelope outline icon"></i>
+                        Email</a>
+                </div>
+            </div>
+            <a href="assets/resume.pdf" download class="ui right borderless item"><i class="download icon"></i>
+                Resume
+                (PDF)</a>
+
+            <div class="ui simple right dropdown borderless item">
+                <i class="question icon"></i>
+                <div class="menu">
+                    <div class="header">How I built this site:</div>
+                    <div class="ui divider"></div>
+                    <div class="ui item">
+                        <i class="html5 icon"></i>HTML
+                    </div>
+                    <div class="ui item">
+                        <i class="css3 alternate icon"></i>CSS
+                    </div>
+                    <div class="ui item">
+                        <i class="js icon"></i>JavaScript
+                    </div>
+                    <div class="ui item">
+                        <img src="/assets/images/semantic- logo.png"> SemanticUI
+                    </div>
+
                 </div>
             </div>
 
-            <a href="assets/resume.pdf" download class="item"><i class="download icon"></i> Resume (PDF)</a>
+            <a class="medium ui borderless item"> <i class="ui sun icon"></i> </a>
         </div>
     </div>
+    </div>
     <div class="ui basic fluid intro very padded segment">
-        <h1 class="ui center aligned grid hero-welcome">Hi, my name is Jamie Epstein.</h1>
+        <div class="intro-container">
+            <img class="logo-headshot" src="assets/images/headshot 2.jpg">
+            <h1 class="ui left aligned grid hero-welcome">Hi, my name is <span id="my-name">Jamie Epstein</span>.</h1>
+            <h2 class="ui left aligned grid hero-welcome2">I'm a Full Stack Jr. Developer</h2>
+        </div>
     </div>
 
-    <div class="ui padded segment">
-        <h1 class="portfolio-title">Projects</h1>
+    <div class="project-section">
+        <div class="ui segment inverted">
+            <h4 class="ui horizontal divider inverted header project-title">
+                <i class="file alternate icon"></i>
+                <span class="project-title-header">Projects</span>
+            </h4>
+        </div>
+
         <div class="ui four column grid special cards">
             <div class="card orange">
                 <div class="blurring dimmable image">
                     <div class="ui dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui inverted button" data-url="https://jasepstein.github.io/groupProject1/">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/groupProject1/">
                                     <i class='sign out alternate icon'></i>Open
                                 </div>
-                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/groupProject1">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/groupProject1">
                                     <i class='ui icon github'></i>Github</div>
                             </div>
                         </div>
@@ -69,10 +113,12 @@
                     <div class="ui dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui inverted button" data-url="https://jasepstein.github.io/WordGuessGame/">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/WordGuessGame/">
                                     <i class='sign out alternate icon'></i>Open
                                 </div>
-                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/WordGuessGame">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/WordGuessGame">
                                     <i class='ui icon github'></i>Github</div>
                             </div>
                         </div>
@@ -92,10 +138,12 @@
                     <div class="ui dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui inverted button" data-url="https://jasepstein.github.io/tip-calculator/">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/tip-calculator/">
                                     <i class='sign out alternate icon'></i>Open
                                 </div>
-                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/tip-calculator">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/tip-calculator">
                                     <i class='ui icon github'></i>Github</div>
                             </div>
                         </div>
@@ -115,10 +163,12 @@
                     <div class="ui dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui inverted button" data-url="https://jasepstein.github.io/TriviaGame/"><i
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/TriviaGame/"><i
                                         class='sign out alternate icon'></i>Open
                                 </div>
-                                <div class="ui inverted button" data-url="https://github.com/JASEpstein/TriviaGame"><i
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/TriviaGame"><i
                                         class='ui icon github'></i>Github</div>
                             </div>
                         </div>
@@ -135,6 +185,19 @@
         </div>
     </div>
 
+    <div class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+
+            <div class="ui inverted section divider"></div>
+            <img src="assets/images/logo letters purple.png" class="ui centered mini image">
+            <div class="ui horizontal inverted small divided link list">
+                <a class="item" href="#">Site Map</a>
+                <a class="item" href="#">Contact Us</a>
+                <a class="item" href="#">Terms and Conditions</a>
+                <a class="item" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
 
 
     <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div> -->

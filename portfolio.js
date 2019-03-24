@@ -1,3 +1,4 @@
+// Semantic Inits
 $('.ui.sticky')
     .sticky({
         context: '#example1'
@@ -15,12 +16,24 @@ $('.hero-welcome')
 $('.hero-welcome2')
     .transition({
         animation: 'scale in',
-        duration: '4s',
+        duration: '2s'
     });
 
+$('.logo-headshot')
+    .transition({
+        animation: 'scale in',
+        duration: '2s'
+    });
 
-$('.ui.inverted.button').click(function () {
-    console.log('click');
+// Connect Hover actions
+
+$(document).on('hover', '.connect-item-twitter', function () {
+    console.log('hover');
+    $('#connect-btn').css('background', '#1DA1F2');
+});
+
+
+$('.card-link').click(function () {
     var link = $(this).data('url')
     window.open(link);
 });

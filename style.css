@@ -1,25 +1,91 @@
-body {
-    font-family: 'Comfortaa', cursive;
+@font-face {
+    font-family: Comfortaa;
+    src: url(assets/fonts/Comfortaa_Regular.ttf);
 }
 
-.logo.headshot {
+body {
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+    background-image: url('assets/images/dark-honeycomb.png');
+
+}
+
+.intro-container {
+    margin-top: 17rem;
+}
+
+.ui.inverted.menu .dropdown.item:hover,
+.ui.inverted.menu .link.item:hover,
+.ui.inverted.menu a.item:hover,
+.ui.link.inverted.menu .item:hover {
+    background: #321046;
+    color: #FFFFFF;
+}
+
+.ui.vertical.menu .active.item:hover,
+.ui.menu .active.item:hover {
+    background-color: #1DA1F2;
+}
+
+/* #connect-btn {
+    background: #1b1c1e;
+    color: #FFFFFF;
+} */
+
+#logo-nav {
+    height: 45px;
+    width: 71px;
+}
+
+.logo-headshot {
     border-radius: 50%;
+    box-shadow: 0 0 0 1px gray,
+        0 0 0 5px white,
+        0 0 0 6px gray;
+    display: inline-block;
+    float: left;
+    margin-right: 4rem;
 }
 
 .hero-welcome {
-    /* background-color: rgba(38, 12, 12, 0.3); */
     font-size: 6rem;
-    /* color: white;
-    text-shadow: 2px 2px black; */
+    position: relative;
+    color: white;
 }
 
-.portfolio-title {}
+.hero-welcome2 {
+    font-size: 4rem;
+    position: relative;
+    color: white;
+}
+
+#my-name {
+    color: #5941A9;
+    text-decoration-line: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+.project-section {
+    height: 80%;
+}
+
+.project-title {
+    margin-bottom: 2rem;
+}
+
+.project-title-header {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
 
 .ui.basic.intro {
-    /* background-image: url('assets/images/brickwall.png'); */
     height: 50%;
     position: relative;
-    top: 57px;
+
+}
+
+.ui.padded.segment {
+    height: 100%;
 }
 
 .card img {
