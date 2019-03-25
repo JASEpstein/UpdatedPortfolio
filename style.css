@@ -62,7 +62,6 @@ body {
     box-shadow: 0 0 0 1px gray,
         0 0 0 5px white,
         0 0 0 6px gray;
-    display: inline-block;
     float: left;
     margin-right: 4rem;
 }
