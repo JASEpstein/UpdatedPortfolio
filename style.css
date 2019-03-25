@@ -58,12 +58,12 @@ body {
 }
 
 .logo-headshot {
-    /* border-radius: 50%;
+    /* border-radius: 50%; */
     box-shadow: 0 0 0 1px gray,
         0 0 0 5px white,
-        0 0 0 6px gray; */
+        0 0 0 6px gray;
     float: left;
-    /* margin-right: 4rem; */
+    margin-right: 4rem;
 }
 
 .hero-text {
@@ -116,6 +116,6 @@ body {
     height: 100%;
 }
 
-/* .card img {
+.card img {
     height: 13rem !important;
-} */
+}
