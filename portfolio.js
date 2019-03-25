@@ -25,14 +25,17 @@ $('.logo-headshot')
         duration: '2s'
     });
 
+$('.special.cards .image').dimmer({
+    on: 'hover'
+});
+
+// Page Functions
+
 $('.card-link').click(function () {
     var link = $(this).data('url')
     window.open(link);
 });
 
-$('.special.cards .image').dimmer({
-    on: 'hover'
-});
 
 
 // $(document).on('ready', function () {

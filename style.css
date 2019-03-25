@@ -44,7 +44,6 @@ body {
 
 /* #connect-btn {
     background: #1b1c1e;
-    color: #FFFFFF;
 } */
 
 #logo-nav {
@@ -68,6 +67,10 @@ body {
     margin-right: 4rem;
 }
 
+.hero-text {
+    margin-left: 19rem;
+}
+
 .hero-welcome {
     font-size: 6rem;
     position: relative;
@@ -84,6 +87,11 @@ body {
     color: #5941A9;
     text-decoration-line: underline;
     text-decoration-color: #FFFFFF;
+}
+
+.tribox {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
 .project-section {
@@ -112,13 +120,3 @@ body {
 .card img {
     height: 13rem !important;
 }
-
-/* .portfolio-carousel {
-    width: 90%;
-    margin: 0px auto;
-} */
-
-/* .parallax-window {
-    min-height: 800px;
-    background: transparent;
-} */
