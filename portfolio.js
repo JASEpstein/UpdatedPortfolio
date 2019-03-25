@@ -25,14 +25,6 @@ $('.logo-headshot')
         duration: '2s'
     });
 
-// Connect Hover actions
-
-$(document).on('hover', '.connect-item-twitter', function () {
-    console.log('hover');
-    $('#connect-btn').css('background', '#1DA1F2');
-});
-
-
 $('.card-link').click(function () {
     var link = $(this).data('url')
     window.open(link);
