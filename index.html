@@ -12,7 +12,7 @@
 
 <body>
     <!-- NavBar -->
-    <div class="ui fixed massive inverted menu">
+    <div class="ui fixed massive inverted menu" id="navbar">
         <!-- <a href="index.html" class="header item"></a> -->
         <div class="ui borderless item left">
             <div class="ui borderless item">
@@ -65,7 +65,11 @@
                 </div>
             </div>
 
-            <a class="medium ui borderless item"> <i class="ui sun icon"></i> </a>
+            <a class="medium ui borderless item mode-switch" data-mode="night">
+                <i class="ui adjust icon">
+                </i>
+                <span class="mode-name">Day Mode</span>
+            </a>
         </div>
     </div>
 
@@ -74,9 +78,10 @@
         <div class="intro-container">
             <img class="ui small circular image logo-headshot" src="assets/images/headshot2.jpg">
             <div class="hero-text">
-                <h1 class="ui left aligned grid hero-welcome">Hi, my name is <span id="my-name">Jamie Epstein</span>.
+                <h1 class="ui left aligned grid hero-welcome intro-words">Hi, my name is <span id="my-name">Jamie
+                        Epstein</span>.
                 </h1>
-                <h2 class="ui left aligned grid hero-welcome2">I'm a Full Stack Jr. Developer</h2>
+                <h2 class="ui left aligned grid hero-welcome2 intro-words">I'm a Full Stack Jr. Developer</h2>
             </div>
         </div>
     </div>
