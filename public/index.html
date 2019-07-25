@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css' />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio 3.0</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="ui fixed massive inverted menu" id="navbar">
+        <!-- <a href="index.html" class="header item"></a> -->
+        <div class="ui borderless item left">
+            <div class="ui borderless item">
+                <a class="item borderless" href="#"><img id="logo-nav" src="assets/images/logo letters purple.png"></a>
+            </div>
+        </div>
+
+        <div class="ui item right borderless">
+            <div id="connect-btn" class="ui simple borderless item dropdown">
+                <i class="hand spock outline icon"></i> First Contact <i class="dropdown icon"></i>
+                <div class="menu inverted">
+                    <a class="item" id="connect-item-linkedin" href="https://www.linkedin.com/in/JASEpstein"
+                        target="_blank"> <i class="linkedin icon"></i>
+                        LinkedIn</a>
+                    <a class="item" id="connect-item-github" href="https://www.github.com/JASEpstein" target="_blank">
+                        <i class="github icon"></i>
+                        Github</a>
+                    <a class="item" id="connect-item-twitter" href="https://www.twitter.com/jamieepstein"
+                        target="_blank"> <i class="twitter icon"></i>
+                        Twitter</a>
+                    <a class="item" id="connect-item-email" href="mailto:JASEpstein@gmail.com" target="_blank"> <i
+                            class="envelope outline icon"></i>
+                        Email</a>
+                </div>
+            </div>
+            <a href="assets/Epstein_Jamie_Resume.pdf" download class="ui right borderless item"><i class="download icon"></i>
+                Resumé</a>
+
+            <div class="ui simple right dropdown borderless item">
+                <i class="question icon"></i>
+                <div class="menu">
+                    <div class="header">How I built this site:</div>
+                    <div class="ui divider"></div>
+                    <div class="ui item">
+                        <i class="html5 icon"></i>HTML
+                    </div>
+                    <div class="ui item">
+                        <i class="css3 alternate icon"></i>CSS
+                    </div>
+                    <div class="ui item">
+                        <i class="js icon"></i>JavaScript
+                    </div>
+                    <div class="ui item">
+                        <img id="semantic-icon" src="assets/images/semantic-logo.png"> SemanticUI
+                    </div>
+                    <div class="ui item">
+                        <i class="google icon"></i>Google Search ;)
+                    </div>
+
+                </div>
+            </div>
+
+            <a class="medium ui borderless item mode-switch" data-mode="night">
+                <i class="ui adjust icon">
+                </i>
+                <span class="mode-name">Day Mode</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="ui basic fluid intro very padded segment">
+        <div class="intro-container">
+            <img class="ui medium circular image logo-headshot" src="assets/images/headshot2.jpg">
+            <div class="hero-text">
+                <h1 class="ui left aligned grid hero-welcome intro-words">Hi, my name is <span id="my-name">Jamie
+                        Epstein</span>.
+                </h1>
+                <h2 class="ui left aligned grid hero-welcome2 intro-words">I'm a Full Stack Jr. Developer</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Project Section -->
+    <div class="project-section">
+        <div class="ui segment inverted">
+            <h4 class="ui horizontal divider inverted header project-title">
+                <i class="file alternate icon"></i>
+                <span class="project-title-header">Projects</span>
+            </h4>
+        </div>
+
+        <div class="ui four column grid special cards very padded">
+            <div class="card yellow">
+                <div class="blurring dimmable image">
+                    <div class="ui yellow ribbon label">Group Project</div>
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/groupProject1/">
+                                    <i class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/groupProject1">
+                                    <i class='ui icon github'></i>Github</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/screenshots/uhikescreenshot.png">
+                </div>
+                <div class="content">
+                    <h3 class="header">UHike</h3>
+                    <div class="meta">
+                        <span class="date">Browse local hiking trails! Search your address and get a list of trails close to you.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card teal">
+                <div class="blurring dimmable image">
+                    <div class="ui teal ribbon label">Homework</div>
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/WordGuessGame/">
+                                    <i class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/WordGuessGame">
+                                    <i class='ui icon github'></i>Github</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/screenshots/80sscreenshot.png">
+                </div>
+                <div class="content">
+                    <h3 class="header">80's Movie Trivia</h3>
+                    <div class="meta">
+                        <span class="date">Guess the title of the random 80s movie. But you only have 10 guesses!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card pink">
+                <div class="blurring dimmable image">
+                    <div class="ui pink ribbon label">Passion Project</div>
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://jasepstein.github.io/tip-calculator/">
+                                    <i class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/tip-calculator">
+                                    <i class='ui icon github'></i>Github</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/screenshots/tipscreenshot.png">
+                </div>
+                <div class="content">
+                    <h3 class="header">Tip Calculator</h3>
+                    <div class="meta">
+                        <span class="date">My wife is British and needed help with American tipping rules.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card teal">
+                <div class="blurring dimmable image">
+                    <div class="ui teal ribbon label">Homework</div>
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button card-link"
+                                    data-url="https://parksandrectrivia.web.app/"><i
+                                        class='sign out alternate icon'></i>Open
+                                </div>
+                                <div class="ui inverted button card-link"
+                                    data-url="https://github.com/JASEpstein/TriviaGame"><i
+                                        class='ui icon github'></i>Github</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/screenshots/triviascreenshot.png">
+
+                </div>
+                <div class="content">
+                    <h3 class="header">Parks & Rec Trivia</h3>
+                    <div class="meta">
+                        <span class="date">Treat yo self to a multiple choice quiz with difficulty levels.</span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="card teal">
+                    <div class="blurring dimmable image">
+                        <div class="ui teal ribbon label">Homework</div>
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button card-link"
+                                        data-url="https://jasepstein.github.io/HW7-TrainTimer/"><i
+                                            class='sign out alternate icon'></i>Open
+                                    </div>
+                                    <div class="ui inverted button card-link"
+                                        data-url="https://github.com/JASEpstein/HW7-TrainTimer"><i
+                                            class='ui icon github'></i>Github</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/images/screenshots/traintimes.png">
+    
+                    </div>
+                    <div class="content">
+                        <h3 class="header">Train Timer</h3>
+                        <div class="meta">
+                            <span class="date">Simple Firebase application that uses Moment.js to calculate upcoming train times and store them in a database.</span>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="card red">
+                        <div class="blurring dimmable image">
+                            <div class="ui pink ribbon label">Passion Project</div>
+                            <div class="ui red ribbon label second-ribbon">Work in Progress</div>
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button disabled card-link"
+                                            data-url="https://jasepstein.github.io/TriviaGame/"><i
+                                                class='sign out alternate icon'></i>Open
+                                        </div>
+                                        <div class="ui inverted button card-link"
+                                            data-url="https://github.com/JASEpstein/spacex-launch-schedule"><i
+                                                class='ui icon github'></i>Github</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/images/screenshots/spaceX_wip.png">
+        
+                        </div>
+                        <div class="content">
+                            <h3 class="header">SpaceX Launch Finder</h3>
+                            <div class="meta">
+                                <span class="date">Mobile-first app that tells you the details about upcoming SpaceX launches.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="card teal">
+                            <div class="blurring dimmable image">
+                                <div class="ui teal ribbon label">Homework</div>
+                                <div class="ui dimmer">
+                                    <div class="content">
+                                        <div class="center">
+                                            <div class="ui inverted button gif-link"><i
+                                                class='sign out alternate icon'></i>Open
+                                            </div>
+
+                                            <div class="ui modal">
+                                                <div class="header">Bamazon Demo</div>
+                                                
+                                                  <img class="image bamazon-gif" src="assets/images/gifs/bamazonCustomer.gif" alt="bamazon gif">
+                                            </div>
+
+                                            <div class="ui inverted button card-link"
+                                                data-url="https://parksandrectrivia.web.app/"><i
+                                                    class='ui icon github'></i>Github</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="assets/images/gifs/bamazonCustomer.gif">
+            
+                            </div>
+                            <div class="content">
+                                <h3 class="header">Bamazon</h3>
+                                <div class="meta">
+                                    <span class="date">Command line version of Amazon. Also used as an inventory management app using Inquirer.</span>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+
+            <div class="ui inverted section divider"></div>
+            <img src="assets/images/logo letters purple.png" class="ui centered mini image">
+            <div class="ui horizontal inverted small divided link list">
+                <a class="item" href="#">Site Map</a>
+                <a class="item" href="#">Contact Us</a>
+                <a class="item" href="#">Terms and Conditions</a>
+                <a class="item" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div> -->
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@4.0.0/dist/simpleParallax.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
